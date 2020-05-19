@@ -22,4 +22,14 @@ set number
 set nowrap
 
 " ctags
-command! MakeTags !ctags -R .
+" commands need to start with an uppercase
+" Mt = Make tags
+command! Mt !ctags -R .
+
+" use 4 spaces for tab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set shiftround
+set expandtab
+set tabstop=4
