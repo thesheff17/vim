@@ -33,3 +33,7 @@ set shiftwidth=4
 set shiftround
 set expandtab
 set tabstop=4
+
+" set width
+set textwidth=100
+
